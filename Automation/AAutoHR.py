@@ -37,4 +37,4 @@ os.system('git commit -m "automatic commit"')
 os.system('git push -u origin master')
 
 #Cleaning directory
-# os.system('del /f *.py')
+os.system('del /f *.py')
