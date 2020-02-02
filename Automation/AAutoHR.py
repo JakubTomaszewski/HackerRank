@@ -3,7 +3,8 @@ import os
 from urllib import request
 import gzip
 
-url = 'https://s3.amazonaws.com/downloads.hackerrank.com/hacker_gdpr_data/jakub_k_tomasze1oWje7DgWmNoZ18HjJhYt_AoWje7DgWmNoZ18HjJhYt_AoWje7DgWmNoZ18HjJhYt_A.json.gz?AWSAccessKeyId=AKIAJ4WZFDFQTZRGO3QA&Expires=1580832734&Signature=pYjVk5LArNbzj54I7BiTOGe1anE%3D&response-content-disposition=attachment%3B%20filename%3Djakub_k_tomasze1_data.json.gz&response-content-type=application%2Foctet-stream'
+url = 'https://s3.amazonaws.com/downloads.hackerrank.com/hacker_gdpr_data/jakub_k_tomasze1X0yQTzu295IVq48NfnDv_QX0yQTzu295IVq48NfnDv_QX0yQTzu295IVq48NfnDv_Q.json.gz?AWSAccessKeyId=AKIAJ4WZFDFQTZRGO3QA&Expires=1581254799&Signature=uPtsxICX38rUFzuz8mksDzryL%2FA%3D&response-content-disposition=attachment%3B%20filename%3Djakub_k_tomasze1_data.json.gz&response-content-type=application%2Foctet-stream'
+
 #getting response zip file
 response = request.urlopen(url)
 
@@ -37,4 +38,4 @@ os.system('git commit -m "weekly automatic commit"')
 os.system('git push -u origin master')
 
 #Cleaning directory
-# os.system('del /f *.py')
+os.system('del /f *.py')
