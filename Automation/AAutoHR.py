@@ -33,8 +33,8 @@ print(os.system('dir'))
 
 #pushing to git
 os.system('git add *')
-os.system('git commit -m "automatic commit"')
+os.system('git commit -m "weekly automatic commit"')
 os.system('git push -u origin master')
 
 #Cleaning directory
-# os.system('del /f *.py')
+os.system('del /f *.py')
